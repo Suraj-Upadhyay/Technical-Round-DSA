@@ -1,0 +1,5 @@
+n = int(input("Enter size : "))
+array = list(map(int, input("Enter array : ").strip().split()))
+k = int(input("k : "))
+array.sort()
+print("kth smallest number : ", array[k - 1])
